@@ -11,7 +11,6 @@ module.exports = {
       res.status(500).json(err);
     }
   },
-
   // get header
   index: async (req, res) => {
     try {
