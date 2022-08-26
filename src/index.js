@@ -5,7 +5,7 @@ const cors = require("cors");
 const dotenv = require("dotenv");
 const handlebars = require("express-handlebars");
 const app = express();
-const port = 8000;
+const port = process.env.PORT || 8000;
 
 const route = require("./routes");
 const mongoose = require("mongoose");
